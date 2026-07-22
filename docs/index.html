@@ -11,18 +11,21 @@
   <body class="interior">
     <header class="site-nav container"><a class="brand" href="/"><img src="/assets/mark.svg" alt=""><span>axio</span></a><nav><a class="active" href="/docs/">Docs</a><a href="/download/">Download</a><a href="https://github.com/notzenco/axio">GitHub</a></nav></header>
     <main class="docs-layout container">
-      <aside><span>OVERVIEW</span><a class="active" href="/docs/">Product direction</a><a href="https://github.com/notzenco/axio/blob/main/docs/architecture.md">Architecture</a><a href="https://github.com/notzenco/axio/blob/main/docs/versioning.md">Versioning</a></aside>
+      <aside><span>OVERVIEW</span><a class="active" href="/docs/">Documentation</a><a href="https://github.com/notzenco/axio/blob/main/docs/status-and-direction.md">Current status</a><a href="https://github.com/notzenco/axio/blob/main/docs/product-plan.md">Product plan</a><a href="https://github.com/notzenco/axio/blob/main/docs/desktop-design.md">Desktop design</a><a href="https://github.com/notzenco/axio/blob/main/docs/architecture.md">Architecture</a><a href="https://github.com/notzenco/axio/blob/main/docs/development.md">Development</a><a href="https://github.com/notzenco/axio/blob/main/docs/testing.md">Testing</a><a href="https://github.com/notzenco/axio/blob/main/docs/security-model.md">Security model</a><a href="https://github.com/notzenco/axio/blob/main/docs/reference-repositories.md">References</a><a href="https://github.com/notzenco/axio/blob/main/docs/versioning.md">Versioning</a></aside>
       <article>
         <p class="section-label">DOCUMENTATION</p>
-        <h1>Product direction</h1>
+        <h1>Axio documentation</h1>
         <p class="lead">Axio is a native, local-first workspace for running, steering, and reviewing coding agents.</p>
+        <h2>Current status</h2>
+        <p>Axio 0.0.1 is an early interaction foundation: the native Tauri shell, responsive task workspace, shared Rust state model, review flow, and CLI are functional over deterministic in-memory demo data. Real agent processes, terminals, Git worktrees and diffs, persistence, installers, and updates are not implemented yet.</p>
+        <p><a href="https://github.com/notzenco/axio/blob/main/docs/status-and-direction.md">Read the exact implemented, simulated, and missing behavior →</a></p>
         <h2>The target experience</h2>
         <ol class="docs-list"><li>Open a repository.</li><li>Launch one or more coding agents.</li><li>Give them deliberate worktree and task boundaries.</li><li>Observe progress, questions, commands, and failures in one place.</li><li>Review files and diffs, redirect work, and merge the result.</li><li>Reopen Axio without losing the workspace.</li></ol>
         <h2>What 1.0 means</h2>
         <p>Version 1.0 is the stable product contract, not a promise to include every integration. The CLI, persistence and migrations, connector schema, orchestration protocol, release artifacts, and supported workspace behavior must be clear and dependable.</p>
         <h2>What is intentionally absent</h2>
         <p>The foundation does not require a hosted account, billing system, marketplace economy, or a replacement native LLM agent loop. Those systems should not define the local product.</p>
-        <div class="docs-callout"><strong>Versioned technical documentation lives with the code.</strong><p>The public website presents it, while the canonical contract remains reviewable beside the Rust implementation.</p><a href="https://github.com/notzenco/axio/tree/main/docs">Browse versioned docs →</a></div>
+        <div class="docs-callout"><strong>Versioned technical documentation lives with the code.</strong><p>The complete set covers status, product outcomes, decisions, architecture, protocol, development, testing, security, releasing, troubleshooting, setup, and external references.</p><a href="https://github.com/notzenco/axio/blob/main/docs/README.md">Browse the documentation index →</a></div>
       </article>
     </main>
     <footer class="container"><a class="brand" href="/"><img src="/assets/mark.svg" alt=""><span>axio</span></a><p>Native agent orchestration, built in public.</p></footer>

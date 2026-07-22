@@ -15,3 +15,5 @@ The production `axio.sh` deployment is not switched by this repository's
 initial commit. Deployment and DNS migration are separate reviewed operations.
 
 The Axio product lives at <https://github.com/notzenco/axio>.
+The canonical documentation index lives at
+<https://github.com/notzenco/axio/blob/main/docs/README.md>.
