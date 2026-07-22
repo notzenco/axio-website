@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Axio is a native, local-first workspace for running, steering, and reviewing coding agents.">
+    <meta name="theme-color" content="#08090d">
+    <meta property="og:title" content="Axio — one workspace for every coding agent">
+    <meta property="og:description" content="Run agents in parallel. Review their work. Stay in control.">
+    <title>Axio — one workspace for every coding agent</title>
+    <link rel="icon" href="/assets/mark.svg" type="image/svg+xml">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="/assets/site.css">
+  </head>
+  <body>
+    <header class="site-nav container">
+      <a class="brand" href="/" aria-label="Axio home"><img src="/assets/mark.svg" alt=""><span>axio</span></a>
+      <nav aria-label="Primary navigation">
+        <a href="/docs/">Docs</a>
+        <a href="/download/">Download</a>
+        <a href="https://github.com/notzenco/axio">GitHub</a>
+      </nav>
+      <a class="nav-action" href="https://github.com/notzenco/axio">View source</a>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div class="release-chip"><span></span> Building in public · 0.0.1</div>
+        <h1>Every coding agent.<br><em>One workspace.</em></h1>
+        <p class="hero-copy">Run Codex, Claude Code, OpenCode, Pi, and other agents side by side. Give them clear worktree boundaries, see what they are doing, and review the result without losing control.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://github.com/notzenco/axio">Explore the code</a>
+          <a class="button secondary" href="/docs/">Read the direction</a>
+        </div>
+
+        <div class="product-frame" aria-label="Preview of the Axio agent workspace">
+          <div class="frame-bar">
+            <div class="frame-brand"><img src="/assets/mark.svg" alt=""> axio <span>0.0.1</span></div>
+            <div>axio / main</div>
+            <div class="frame-dots"><i></i><i></i><i></i></div>
+          </div>
+          <div class="frame-grid">
+            <aside class="mock-sidebar">
+              <button type="button">＋ New agent</button>
+              <small>WORKSPACE</small>
+              <div class="mock-project"><b>AX</b><span>axio<em>2 agents active</em></span></div>
+              <p>● Local workspace</p>
+            </aside>
+            <div class="mock-main">
+              <div class="mock-heading"><span>AGENT WORKSPACE</span><strong>Build in parallel.<br>Stay in control.</strong></div>
+              <div class="mock-agents">
+                <article><header><b>C</b><span>Codex<small>workspace-foundation</small></span><em>RUNNING</em></header><p>Map the workspace boundary</p><pre>Inspecting Rust crates…<br>Found 4 initial packages</pre></article>
+                <article class="waiting"><header><b>C</b><span>Claude Code<small>architecture-review</small></span><em>WAITING</em></header><p>Review the initial architecture</p><pre>Review ready<br>Waiting for your direction</pre></article>
+              </div>
+              <div class="mock-composer"><span>Direct the workspace</span><p>Ask an agent, compare approaches, or start parallel work…</p><small>axio · main · local <b>Send ↵</b></small></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="principles container">
+        <div class="section-intro"><span>THE FOUNDATION</span><h2>An environment around agents—not another closed agent.</h2></div>
+        <div class="principle-grid">
+          <article><span>01</span><h3>Agent-agnostic</h3><p>Use the coding agents you already trust. Axio gives them a consistent workspace without pretending they are all the same.</p></article>
+          <article><span>02</span><h3>Local-first</h3><p>Your repositories, terminals, worktrees, and session state remain under your control. An account is not the price of entry.</p></article>
+          <article><span>03</span><h3>Rust reliability</h3><p>Process supervision, persistence, protocols, and permissions belong in a small, testable native core.</p></article>
+        </div>
+      </section>
+
+      <section class="flow-section">
+        <div class="container flow-grid">
+          <div><span class="section-label">ONE CONTINUOUS FLOW</span><h2>Open. Delegate.<br>Review. Continue.</h2><p>Axio is designed around the real loop of agent-assisted development, including the parts between prompts.</p></div>
+          <ol>
+            <li><span>01</span><div><strong>Open a repository</strong><p>Restore projects, worktrees, terminals, and context.</p></div></li>
+            <li><span>02</span><div><strong>Launch the right agents</strong><p>Work in one checkout or isolate tasks deliberately.</p></div></li>
+            <li><span>03</span><div><strong>Stay above the work</strong><p>See progress, questions, commands, and failures together.</p></div></li>
+            <li><span>04</span><div><strong>Review the result</strong><p>Compare approaches, annotate diffs, and merge with confidence.</p></div></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="public-section container">
+        <div class="public-card">
+          <div><span class="section-label">PUBLIC FROM THE FIRST COMMIT</span><h2>Help shape the workspace.</h2><p>Axio begins at 0.0.1 and will adapt to what the product teaches us. There is no artificial intermediate version schedule. The destination is a dependable 1.0 agent workspace.</p></div>
+          <a class="button primary" href="https://github.com/notzenco/axio">Follow development</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container"><a class="brand" href="/"><img src="/assets/mark.svg" alt=""><span>axio</span></a><p>Native agent orchestration, built in public.</p><nav><a href="/docs/">Docs</a><a href="/download/">Download</a><a href="https://github.com/notzenco/axio">GitHub</a></nav></footer>
+  </body>
+</html>
