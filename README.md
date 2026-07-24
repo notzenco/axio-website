@@ -17,3 +17,5 @@ initial commit. Deployment and DNS migration are separate reviewed operations.
 The Axio product lives at <https://github.com/notzenco/axio>.
 The canonical documentation index lives at
 <https://github.com/notzenco/axio/blob/main/docs/README.md>.
+The implemented native terminal contract lives at
+<https://github.com/notzenco/axio/blob/main/docs/terminal-mode.md>.
